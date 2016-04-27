@@ -14,4 +14,3 @@ RUN apt-get update -qq && apt-get install -qqy iptables ca-certificates openjdk-
 RUN usermod -aG docker jenkins
 
 EXPOSE 8080
-
